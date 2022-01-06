@@ -57,6 +57,28 @@
 
     }
 
+    .educations {
+        width: 60vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+        .education {
+            background: lighten($primary-color, 30%);
+            padding: 0.5rem;
+            color: $primary-color;
+            border-bottom: 5px solid $secondary-color;
+
+             h2, h3 {
+                margin: 0.5rem 0;
+            }
+        }
+
+
+    }
+
+
     .social-icons {
         display: flex;
         flex-direction: column;
