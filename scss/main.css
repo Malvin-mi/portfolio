@@ -227,6 +227,11 @@
   padding-bottom: 1rem;
 }
 
+.about-bio .profile-img {
+  height: 150px;
+  width: 150px;
+}
+
 .about .jobs {
   width: 60vw;
   margin: 2rem auto 0 auto;
@@ -270,6 +275,30 @@
 
 .about .educations .education h2, .about .educations .education h3 {
   margin: 0.5rem 0;
+}
+
+.about .skillset {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+}
+
+.about .skillset h1 {
+  background: #414141;
+  padding: 0.5rem;
+  color: #ff652f;
+}
+
+.about .skillset .skill-icons {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.about .skillset .skill-icons i {
+  color: #ff652f;
 }
 
 .about .social-icons {
@@ -470,6 +499,14 @@
   .about-bio {
     font-size: 1.5rem;
   }
+  .skill-icons {
+    margin-top: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
   .projects-bio-image {
     height: 40vh;
   }
@@ -479,6 +516,17 @@
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skill-icons {
+    margin-top: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
   }
 }
 
