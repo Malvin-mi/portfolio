@@ -442,6 +442,15 @@
   color: #fff;
 }
 
+.projects .resume {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+}
+
+.projects .resume a {
+  color: #ff652f;
+}
+
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
